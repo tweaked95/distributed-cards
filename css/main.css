@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1,h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+  margin: 1.5rem;
+}
+
+ol {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  background-color: #ede3db;
+  margin: 1.5rem;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
